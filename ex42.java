@@ -1,4 +1,4 @@
-import java.io.Console;
+oimport java.io.Console;
 
 public class thams42 {
 
@@ -8,17 +8,17 @@ public class thams42 {
 
 		if ((cons = System.console()) != null) {
 
-			char[] pass_ward = null;
+			char[] pass_word = null;
 
 			try {
 
-				pass_ward = cons.readPassword("Input your Password:");
+				pass_word = cons.readPassword("Input your Password:");
 
-				System.out.println("Your password was: " + new String(pass_ward));
+				System.out.println("Your password was: " + new String(pass_word));
 
 			} finally {
 
-				if (pass_ward != null) {
+				if (pass_word != null) {
 
 					java.util.Arrays.fill(pass_word, ' ');
 

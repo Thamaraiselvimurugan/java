@@ -1,4 +1,4 @@
-oimport java.io.Console;
+import java.io.Console;
 
 public class thams42 {
 
